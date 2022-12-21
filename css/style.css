@@ -53,3 +53,12 @@ h1.logo a {
     color: #312a26;
     text-decoration: none;
 }
+
+.banner {
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 670px;
+}
