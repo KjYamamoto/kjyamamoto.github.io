@@ -83,6 +83,7 @@ h1.logo a {
 
 .banner-text p {
     color: #fff;
+    font-family: 'Raleway', sans-serif;
 }
 
 .banner a {
@@ -101,3 +102,23 @@ h1.logo a {
     margin: 4em auto;
     overflow: auto;
 }
+
+.ads-items {
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.ads1 {
+    margin-right: 3%;
+    background-image: url(../img/ads-img1.jpg);
+}
+
+.ads2 {
+    background-image: url(../img/ads-img2.jpg);
+}
+
