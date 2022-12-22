@@ -189,3 +189,13 @@ h1.logo a {
     object-fit: cover;
 }
 
+/* start of the discount banner */
+.discount {
+    width: 85%;
+    margin: 4em;
+    background-image: url(../img/discount-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
