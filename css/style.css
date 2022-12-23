@@ -336,7 +336,7 @@ form h3::after {
     margin: auto;
 }
 
-.res-agreement * {
+.terms * {
     width: auto;
 }
 
@@ -392,14 +392,14 @@ form input[type="submit"] {
     overflow: auto;
 }
 
-.footer-contents:nth-child(4){
-    margin-right: 0;
-}
-
 .footer-widgets {
-    width: 24.5%;
+    width: 24.25%;
     float: left;
     margin-right: 1%;
+}
+
+.footer-widgets:nth-child(4){
+    margin-right: 0;
 }
 
 .footer-widgets h3 {
