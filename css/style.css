@@ -209,7 +209,7 @@ h1.logo a {
 /* start of the discount banner */
 .discount {
     width: 85%;
-    margin: 4em;
+    margin: 4em auto;
     background-image: url('../img/discount-img.jpg');
     background-size: cover;
     background-position: center;
@@ -241,6 +241,7 @@ h1.logo a {
 }
 
 .discount-text a {
+    text-decoration: none;
     text-transform: none;
     display: inline-block;
     padding: 1em;
@@ -355,20 +356,20 @@ form input[type="submit"] {
 
 .ads-2-1 {
     margin-right: 3%;
-    background-image: url(../img/ads-img3.jpg);
+    background-image: url('../img/ads-img3.jpg');
 }
 
 .ads-2-2 {
-    background-image: url(../img/ads-img4.jpg);
+    background-image: url('../img/ads-img4.jpg');
 }
 
 .ads-2-3 {
     margin-right: 3%;
-    background-image: url(../img/ads-img5.jpg);
+    background-image: url('../img/ads-img5.jpg');
 }
 
 .ads-2-4 {
-    background-image: url(../img/ads-img6.jpg);
+    background-image: url('../img/ads-img6.jpg');
 }
 
 .merch-sale {
