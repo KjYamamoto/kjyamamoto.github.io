@@ -122,6 +122,14 @@ h1.logo a {
     background-image: url(../img/ads-img2.jpg);
 }
 
+.ads-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%,);
+    width: 40%;
+}
+
 .ads-items h3 {
     text-transform: uppercase;
     font-size: 2em;
@@ -310,4 +318,74 @@ form input[type="submit"] {
     background-color: #c7a17a;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* HOMEWORK FROM HERE */
+.ads-2 {
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.ads-2-1 {
+    margin-right: 3%;
+    background-image: url(../img/ads-img3.jpg);
+}
+
+.ads-2-2 {
+    background-image: url(../img/ads-img4.jpg);
+}
+
+.ads-2-3 {
+    margin-right: 3%;
+    background-image: url(../img/ads-img5.jpg);
+}
+
+.ads-2-4 {
+    background-image: url(../img/ads-img6.jpg);
+}
+
+.merch-sale {
+    width: 85%;
+    margin: 4em auto;
+}
+/* HOMEWORK TO HERE */
+
+/* Footer Araa */
+.footer {
+    background-image: url(../img/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.footer-contents {
+    width: 85%;
+    float: left;
+    margin-right: 1%;
+}
+
+.footer-contents:nth-child(4){
+    margin-right: 0;
+}
+
+.footer-widgets h3 {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.footer-widgets h4 {
+    color: white;
+}
+
+.footer-widgets p {
+    color: #c7a17a;
+}
+
+.footer td, th {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 3px 6px #312a26;
 }
