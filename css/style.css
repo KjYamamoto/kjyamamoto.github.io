@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,9 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
 }
 
+/* header */
 .header {
     overflow: auto;
-    width: 75vw;
+    width: 85vw;
     margin: 1em auto;
 }
 
@@ -54,6 +59,7 @@ h1.logo a {
     text-decoration: none;
 }
 
+/* banner */
 .banner {
     background-image: url(../img/banner-bg.jpg);
     background-size: cover;
@@ -97,6 +103,7 @@ h1.logo a {
     color: #fff;
 }
 
+/* ads 1st part */
 .ads {
     width: 85%;
     margin: 4em auto;
@@ -144,9 +151,11 @@ h1.logo a {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+    margin-top: 1em;
     text-shadow: 3px 3px 6px #312a26;
 }
 
+/* merch */
 .merch {
     width: 85%;
     margin: 4em auto;
@@ -201,7 +210,7 @@ h1.logo a {
 .discount {
     width: 85%;
     margin: 4em;
-    background-image: url(../img/discount-img.jpg);
+    background-image: url('../img/discount-img.jpg');
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -242,9 +251,26 @@ h1.logo a {
     margin-top: 1em;
 }
 
+/* reservation form */
 .reservation {
     width: 85%;
     margin: 4em auto;
+}
+
+.reservation .header{
+    text-align: center;
+}
+
+.reservation .header h2 {
+    text-transform: uppercase;
+    color: #312a26;
+}
+
+.reservation .header hr {
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
 }
 
 form {
@@ -301,7 +327,7 @@ form h3 {
 
 form h3::after {
     content: "";
-    background-image: url(../img/reservation-cards.png);
+    background-image: url('../img/reservation-cards.png');
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
@@ -353,7 +379,7 @@ form input[type="submit"] {
 
 /* Footer Araa */
 .footer {
-    background-image: url(../img/footer-img.jpg);
+    background-image: url('../img/footer-img.jpg');
     background-size: cover;
     background-position: center;
     padding-top: 2em;
@@ -362,18 +388,26 @@ form input[type="submit"] {
 
 .footer-contents {
     width: 85%;
-    float: left;
-    margin-right: 1%;
+    margin: auto;
+    overflow: auto;
 }
 
 .footer-contents:nth-child(4){
     margin-right: 0;
 }
 
+.footer-widgets {
+    width: 24.5%;
+    float: left;
+    margin-right: 1%;
+}
+
 .footer-widgets h3 {
     color: white;
     text-transform: uppercase;
     text-shadow: 3px 3px 6px #312a26;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .footer-widgets h4 {
@@ -390,7 +424,7 @@ form input[type="submit"] {
     text-shadow: 3px 3px 6px #312a26;
 }
 
-.footer-form {
+.footer-form * {
     width: auto;
 }
 
